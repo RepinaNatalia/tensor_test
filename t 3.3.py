@@ -6,7 +6,7 @@ def even_sum(lst):
     sum_list = sum(lst)
     return sum_list
 
-# Ниже НИЧЕГО НЕ НАДО ИЗМЕНЯТЬ
+# Ниже НИЧЕГО НЕ НАДО ИЗМЕНЯТЬ!
 
 
 data = [
