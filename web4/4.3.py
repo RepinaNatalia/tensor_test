@@ -12,8 +12,8 @@ def sum_digits(num):
     i = 0
     our_sum = 0
     while i != (w):
-        our_sum = our_sum + int(num_str[i])
-        i = i + 1
+        our_sum += int(num_str[i])
+        i += 1
     return our_sum
 
 # Ниже НИЧЕГО НЕ НАДО ИЗМЕНЯТЬ
