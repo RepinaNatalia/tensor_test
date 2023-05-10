@@ -9,8 +9,8 @@ def flatten_and_sort(array):
     i = 0
     b = []
     while i != len(array):
-        b = b + array[i]
-        i = i + 1
+        b += array[i]
+        i += 1
     result_list = sorted(b)
     return result_list
 
