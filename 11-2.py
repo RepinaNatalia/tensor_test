@@ -31,7 +31,7 @@ try:
     btn3 = driver.find_element(By.CSS_SELECTOR,'[class="controls-Button__icon controls-BaseButton__icon controls-icon_size-m controls-icon_style-default controls-icon icon-RoundPlus"]')
     btn3.click() # + сообщение
     sleep(3)
-    btn4 = driver.find_element(By.CSS_SELECTOR, '[name="ws-input_2023-06-12"]')
+    btn4 = driver.find_element(By.CSS_SELECTOR, '[class="controls-Field js-controls-Field controls-InputBase__nativeField controls-Search__nativeField_caretEmpty controls-Search__nativeField_caretEmpty_theme_default   controls-InputBase__nativeField_hideCustomPlaceholder"]')
     person = "Фонарев Дима"
     btn4.send_keys(person, Keys.ENTER) # ввели адресата, появилось автодополнение
     sleep(3)
